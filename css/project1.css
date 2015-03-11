@@ -10,7 +10,7 @@ h1{
 
 img{
     height: 340px;
-    width: 235px; 
+    max-width: 235px; 
     border-style: outset;
     border-radius: 8px;
     border-width: 12px;
@@ -33,11 +33,14 @@ img:hover{
 }
 
 .container{
-    margin-left: 45px;
+    margin-left: 70px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 body{
-    background-image: url(stardust.png);
+    background-image: url(../img/stardust.png);
 }
 
 .col-md-4{
