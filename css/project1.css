@@ -8,15 +8,17 @@ h1{
     color: #07B7FF;
 }
 
-img{
-    height: 340px;
-    max-width: 235px; 
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
     border-style: outset;
     border-radius: 8px;
-    border-width: 12px;
+    border-width: 5px;
     border-color: #CCC8C3;
     
 }
+
 
 img:hover{
     transform: scale(1.2);
@@ -32,12 +34,11 @@ img:hover{
    
 }
 
-.container{
-    margin-left: 70px;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
+.container-fluid{
+    margin-left: 50px;
+    
 }
+
 
 body{
     background-image: url(../img/stardust.png);
@@ -45,8 +46,8 @@ body{
 
 .col-md-4{
     display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .clearfix:before,
